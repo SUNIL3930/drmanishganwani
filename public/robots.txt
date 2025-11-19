@@ -1,0 +1,73 @@
+
+User-agent: *
+Allow: /
+
+# Important pages for SEO
+Allow: /
+Allow: /best-cardiologist-in-nagpur
+Allow: /blog
+Allow: /testimonials
+Allow: /contact
+
+# Location pages for local SEO
+Allow: /locations/
+Allow: /locations/bhandara
+Allow: /locations/umred
+Allow: /locations/sakoli
+Allow: /locations/tumsar
+Allow: /locations/seoni
+Allow: /locations/chhindwara
+Allow: /locations/shahdol
+Allow: /locations/yavatmal
+Allow: /locations/mandla
+Allow: /locations/satna
+Allow: /locations/katni
+Allow: /locations/sagar
+Allow: /locations/narsinghpur
+Allow: /locations/rewa
+Allow: /locations/betul
+Allow: /locations/balaghat
+Allow: /locations/jabalpur
+
+# Sitemap
+Sitemap: https://www.drmanishganwani.com/sitemap.xml
+
+# Disallow admin areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /_next/
+Disallow: /api/
+
+# Allow all city-related content for local SEO
+Allow: /*nagpur*
+Allow: /*bhandara*
+Allow: /*umred*
+Allow: /*seoni*
+Allow: /*mauda*
+Allow: /*sakoli*
+Allow: /*tumsar*
+Allow: /*chhindwara*
+Allow: /*shahdol*
+Allow: /*yavatmal*
+Allow: /*mandla*
+Allow: /*satna*
+Allow: /*katni*
+Allow: /*sagar*
+Allow: /*narsinghpur*
+Allow: /*rewa*
+Allow: /*betul*
+Allow: /*balaghat*
+Allow: /*jabalpur*
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Additional directives for better SEO
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
